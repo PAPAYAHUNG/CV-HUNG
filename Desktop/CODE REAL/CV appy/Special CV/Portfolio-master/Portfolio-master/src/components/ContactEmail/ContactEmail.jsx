@@ -12,8 +12,8 @@ const ContactEmail = () => {
         </div>
         <div className="mail-wrap">
           <button className="contact-mail">
-            <a href="mailto:abhirajmaid050@gmail.com">
-              abhirajmaid050@gmail.com
+            <a href="mailto:levoanhhung@gmail.com">
+            levoanhhung@gmail.com
             </a>
           </button>
         </div>

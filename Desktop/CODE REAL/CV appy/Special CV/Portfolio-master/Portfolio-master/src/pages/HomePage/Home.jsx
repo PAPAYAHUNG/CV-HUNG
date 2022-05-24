@@ -83,20 +83,20 @@ const Home = () => {
           <section className="work" id="work">
             <Portfolio />
           </section>
+        </div>
+
+        <section className="about" id="about">
+          <article>
+            <SectionTitle title="About Me :" />
+          </article>
+          <div>
+            <AboutText />
+            {/* <SocialConnect dim="clamp(20px, 18px + 5vw, 55px)" /> */}
+          </div>
+        </section>
 
 
-          <section className="about" id="about">
-            <article>
-              <SectionTitle title="About Me :" />
-            </article>
-            <div>
-
-
-              <AboutText />
-              {/* <SocialConnect dim="clamp(20px, 18px + 5vw, 55px)" /> */}
-            </div>
-          </section>
-          
+        <div className="container">
           <section className="contact" id="connect">
             <article>
               <SectionTitle
@@ -112,13 +112,8 @@ const Home = () => {
               </div>
             </footer> */}
           </section>
-
-
           <div>
-
           </div>
-
-
         </div>
       </motion.div>
     </>

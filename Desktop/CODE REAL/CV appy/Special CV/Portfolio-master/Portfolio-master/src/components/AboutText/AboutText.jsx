@@ -30,9 +30,38 @@ const data = [
 
 
 const AboutText = () => {
-  const onChange = (key) => {
-    console.log(key)
+  const renderCharacter = () => {
+    return data.map((item, index) => {
+      return <div className="col-4" key={index}>
+        <div className="flip-card">
+          <div className="flip-card-inner">
+            <div className="flip-card-front">
+              <div className="tab-character mt-3">
+                <img src={item.image} className="img-fluid" alt={index} />
+                <div className="text-card">
+                  {item.character}
+                </div>
+              </div>
+            </div>
+
+            <div className="flip-card-back">
+             <div className="tab-character mt-3">
+               <div className="overlay-card"></div>
+                <img src={item.image} className="img-fluid card-img2" alt={index} />
+                <div className="text-card-back">
+                  {item.character}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    })
   }
+
   return (
     <div className="about-text">
 
@@ -46,7 +75,12 @@ const AboutText = () => {
           </div>
         </nav>
         <div className="tab-content" id="nav-tabContent">
-          <div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">...111</div>
+          <div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+            <div className="row mt-1">
+              {renderCharacter()}
+
+            </div>
+          </div>
           <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
             <AboutInfo />
           </div>
