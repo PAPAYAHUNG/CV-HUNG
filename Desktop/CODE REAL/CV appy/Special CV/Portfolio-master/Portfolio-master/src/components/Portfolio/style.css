@@ -1,0 +1,80 @@
+.portfolio h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+* {
+    font-family: 'Cairo', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.projects-list{
+    width: 1300px;
+    display:flex;
+    flex-wrap:wrap;
+    /* justify-content: space-between; */
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.project-card{
+    background: linear-gradient(45deg, rgb(24, 56, 164), rgb(48, 19, 75)) ;
+    box-sizing: border-box;
+    border:2px solid black;
+    /* width:400px; */
+    cursor: pointer;
+    margin-bottom: 40px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.17);
+    transition: 0.4s;
+    border-radius: 10px;
+
+}
+
+.project-card:hover{
+    transform: scale(1.05);
+    /* filter: blur(1px); */
+    box-shadow: 0 0 30px rgba(6, 57, 240, 0.605);
+    border-radius: 10px;
+}
+
+
+.project-card h2{
+    padding: 10px 0;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+.project-card img{
+    width:100%;
+    max-height: 530px;
+    
+}
+
+.project-card p{
+    text-align: center;
+    font-size: 20px;
+    margin:0px 8px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.project-card .fab{
+    font-size: 60px;
+    color: white;
+    margin: 0 15px;
+}
+
+.wrap-tech{
+    flex-wrap: wrap;
+
+}
+
+.tag-tech{
+    background-color: rgba(14, 14, 15, 0.487);
+    margin: 3px;
+    padding: 3px;
+    border-radius: 2px;
+    color: white;
+}

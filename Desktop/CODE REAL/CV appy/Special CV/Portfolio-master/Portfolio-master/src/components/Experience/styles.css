@@ -1,0 +1,28 @@
+.experience-content{
+    width: 90%;
+    margin:0 auto;
+
+}
+
+.experience-content h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.experience-content h3{
+    color: rgb(84, 84, 84);
+    font-size: 18px;
+}
+
+.desc{
+    display:flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.desc img{
+    width:400px;
+}
+.desc p {
+    margin:40px;
+}

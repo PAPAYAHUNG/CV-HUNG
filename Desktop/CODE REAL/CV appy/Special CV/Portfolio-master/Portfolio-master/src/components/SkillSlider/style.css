@@ -1,0 +1,24 @@
+.dropdown {
+  cursor: pointer;
+}
+.dropdown-toggle::after {
+  cursor: pointer;
+}
+.dropdown-item {
+  text-align: center;
+  white-space: unset;
+}
+.dropdown-item:hover {
+  cursor: default;
+  background-color: unset;
+}
+.dropdown-menu.show {
+    margin-top: 10px;
+  display: flex;
+  background-color: rgba(155, 137, 137, 0.386);
+  width: 100vw;
+  /* background-color: transparent; */
+}
+.skill-items {
+  padding: 128px 0;
+}

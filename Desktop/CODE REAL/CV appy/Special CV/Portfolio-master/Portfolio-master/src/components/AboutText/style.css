@@ -1,0 +1,26 @@
+.about-text {
+  color: rgb(190, 190, 190);
+  line-height: 38px;
+  letter-spacing: 1.5px;
+  font-size: 32px;
+  font-weight: 600;
+  padding-right: 40px;
+}
+.about-text p {
+  width: 80%;
+  color: white;
+}
+@media screen and (max-width: 560px) {
+  .about-text p {
+    width: 100%;
+  }
+  .about-text {
+    padding-right: 0;
+    font-size: 20px;
+    line-height: 22px;
+  }
+}
+
+.nav-link.active{
+  background-image:linear-gradient(45deg, rgb(24, 56, 164), rgb(48, 19, 75)); 
+}
