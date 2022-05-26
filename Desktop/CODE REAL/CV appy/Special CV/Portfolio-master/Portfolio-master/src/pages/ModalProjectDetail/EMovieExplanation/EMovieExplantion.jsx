@@ -315,7 +315,9 @@ h1{
     width: 80%;
     position: relative;
     gap: 160px;
-    padding: 60px 0 100px 0;
+    /* padding: 60px 0 60px 0; */
+    margin-top: 60px;
+    /* margin-bottom: 100px; */
     article{
         color: #dd8b08;
         font-size: 20px;

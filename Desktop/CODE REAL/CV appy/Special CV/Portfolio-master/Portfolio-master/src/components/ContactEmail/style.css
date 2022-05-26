@@ -6,20 +6,20 @@
 .mail-text-wrap {
   display: flex;
   justify-content: flex-end;
-  width: 50%;
+  /* width: 50%; */
   color: #ffefda;
 }
 .mail-text-wrap p {
-  width: 45%;
-  font-size: 15px;
-  line-height: 17px;
+  width: 100%;
+  font-size: 25px;
+  line-height: 35px;
   font-weight: 400;
   letter-spacing: -0.8px;
 }
 .mail-wrap {
   display: flex;
   justify-content: flex-end;
-  width: 50%;
+  /* width: 50%; */
 }
 
 .contact-mail {
@@ -33,7 +33,19 @@
   outline: 0;
   font-family: "panchang", sans-serif;
   position: relative;
+  background: linear-gradient(45deg, rgb(24, 56, 164), rgb(48, 19, 75));;
+  border-radius: 15px;
+  width: 100%;
 }
+.contact-mail i{
+  font-size: 20px;
+}
+.contact-mail:hover {
+  background: linear-gradient(-45deg, rgb(24, 56, 164), rgb(48, 19, 75));;
+  transform: translateY(-2px);
+  box-shadow: 3px 5px 5px gray;
+}
+
 .contact-mail a {
   cursor: pointer;
   font-size: 25px;
@@ -41,23 +53,34 @@
   text-decoration: none;
   color: #dfd3c3;
   z-index: 99;
+  padding: 40px 14px;
+ 
 }
-.contact-mail::after {
+/* .contact-mail::after {
   content: "";
   position: absolute;
   left: -30px;
   transform: rotate(2deg);
-  /* background-image: url(../../assets/Images/brush-stroks.png); */
   border: 2px solid rgba(255, 252, 223, 0.507);
   border-radius: 50%;
   background-repeat: no-repeat;
   background-size: contain;
   width: 115%;
   height: 450%;
-}
-@media screen and (max-width: 1100px) {
+} */
+@media screen and (max-width: 1700px) {
   .contact-mail a {
     font-size: 20px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .contact-mail .fa-envelope {
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .contact-mail .fa-envelope {
+    display: block;
   }
 }
 @media screen and (max-width: 880px) {
@@ -90,6 +113,9 @@
   }
   .contact-mail a {
     font-size: 24px;
+  }
+  .contact-mail{
+    margin-top: 20px;
   }
 }
 @media screen and (max-width: 550px) {

@@ -13,7 +13,7 @@ function Portfolio() {
                 to: '/E-Movie-Explanation'
             },
             {
-                id: 2, title: 'E-Theater Dashboard Admin', desc: 'An expansion of E-theater booking ticket. Including manage user, films', image: adminPic,
+                id: 2, title: 'E-Theater Dashboard', desc: 'An expansion of E-theater booking ticket. Including manage user, films', image: adminPic,
                 technology: ["React", "Redux-Thunk", "React-Router-Dom", "Ant-Design", "Formik", "Boostrap", "axios", "Form data"],
                 to: '/Dashboard-Admin-Explanation'
             },
@@ -34,7 +34,7 @@ function Portfolio() {
                     {data.projects.map(elem => {
                         console.log(elem.to)
                         return (
-                            <NavLink to={`${elem.to}`}  className="col-4 "
+                            <NavLink to={`${elem.to}`}  className="col-xl-4 col-md-6 col-12 "
                                 onClick={() => {
 
                                 }}
@@ -51,7 +51,7 @@ function Portfolio() {
                                                 </div>
                                             })}
                                         </div>
-                                        <p>{elem.desc}</p>
+                                        <p style={{minHeight:60}}>{elem.desc}</p>
                                     </div>
                                 </div>
                             </NavLink>

@@ -38,7 +38,7 @@ function DashboardAdminExplanation() {
 
                     >Back</button >
 
-                    <motion.a href="http://e-theater.surge.sh/"
+                    <motion.a href="http://e-theater.surge.sh/admin"
                         target="_blank" rel="noreferrer" alt="gdsfg"
                         variants={TextVarient}
                         initial="initial"

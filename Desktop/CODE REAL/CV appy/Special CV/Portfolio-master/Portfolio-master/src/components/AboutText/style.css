@@ -5,6 +5,8 @@
   font-size: 32px;
   font-weight: 600;
   padding-right: 40px;
+  width: 80%;
+  margin: 0 auto;
 }
 .about-text p {
   width: 80%;
@@ -17,6 +19,9 @@
     border-radius: 15px;
     border: 4px black solid;
     /* box-shadow: 5px 5px 3px purple; */
+}
+ .nav-tabs .nav-link.active{
+  color: white;
 }
 .card-img2{
   position: relative;
@@ -62,6 +67,7 @@ border-radius: 15px;
   transition: transform 0.6s;
   transform-style: preserve-3d;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 15px
 }
 
 .flip-card:hover .flip-card-inner {

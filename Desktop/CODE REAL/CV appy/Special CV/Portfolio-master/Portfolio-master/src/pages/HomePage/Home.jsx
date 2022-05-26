@@ -59,7 +59,7 @@ const Home = () => {
           <SkillItems />
           {/* <SkillsBox /> */}
         </section>
-        <div className="container">
+        <div className="portfo container">
           {/* <section className="intro">
             <ContactBtn />
             <Intro />

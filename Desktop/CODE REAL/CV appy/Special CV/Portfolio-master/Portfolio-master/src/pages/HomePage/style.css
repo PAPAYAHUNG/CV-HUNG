@@ -129,6 +129,16 @@ footer {
   margin-bottom: 30px;
 }
 
+@media screen and (max-width: 1400px) {
+  .portfo.container {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .portfo.container {
+    width: 95%;
+  }
+}
 @media screen and (max-width: 955px) {
   .contact article {
     width: 100%;

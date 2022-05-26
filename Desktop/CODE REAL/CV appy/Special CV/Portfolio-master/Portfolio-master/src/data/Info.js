@@ -17,7 +17,7 @@ export const AboutInfo = () => {
   };
   return (
     <>
-      <p>
+      <p className="mt-4">
         I am a 3 years experience Frontend Web developer and currently i work at Bosch (Engineer).
         <br />
         <br />

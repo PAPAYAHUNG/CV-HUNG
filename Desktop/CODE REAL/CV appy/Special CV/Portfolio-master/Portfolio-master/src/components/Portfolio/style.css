@@ -12,7 +12,7 @@
 }
 
 .projects-list{
-    width: 1300px;
+    /* width: 1300px; */
     display:flex;
     flex-wrap:wrap;
     /* justify-content: space-between; */
@@ -77,4 +77,23 @@
     padding: 3px;
     border-radius: 2px;
     color: white;
+}
+
+
+  .col-md-6-custom {
+    flex: 0 0 55%;
+    max-width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+ 
+
+/* Responsive */
+@media screen and (max-width:1420px) {
+    .col-md-6-custom {
+        flex: 0 0 55%;
+        max-width: 50%;
+        padding-right: 15px;
+        padding-left: 15px;
+      }
 }
