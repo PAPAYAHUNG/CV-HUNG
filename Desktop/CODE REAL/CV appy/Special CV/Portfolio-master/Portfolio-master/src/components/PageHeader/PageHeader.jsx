@@ -60,7 +60,7 @@ const PageHeader = () => {
           <motion.h1 variants={TextVariant}>I'm Hung</motion.h1>
         </span> */}
         <span>
-          <motion.h2 variants={TextVariant2}>Coding to make user have a good experience on my website is my truthly happiness !</motion.h2>
+          <motion.h2 variants={TextVariant2}>Make user have a good experience on my website is my truthly happiness !</motion.h2>
         </span>
       </motion.div>
     </>

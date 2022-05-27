@@ -8,7 +8,7 @@ import react from "../../assets/Images/Logo Skill/react-1-logo-png-transparent.p
 import bootsrap from "../../assets/Images/Logo Skill/boostrap logo.png"
 import thunk from "../../assets/Images/Logo Skill/thunk.png"
 import saga from "../../assets/Images/Logo Skill/Redux-Saga-Logo-Portrait.png"
-import redux from "../../assets/Images/Logo Skill/redux-logo.png"
+import redux from "../../assets/Images/Logo Skill/redux-2.png"
 import routerDom from "../../assets/Images/Logo Skill/router-dom.png"
 import spring from "../../assets/Images/Logo Skill/spring-icon.png"
 import styleComponent from "../../assets/Images/Logo Skill/style-component.png"

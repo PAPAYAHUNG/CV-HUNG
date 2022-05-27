@@ -4,6 +4,8 @@ import './style.css'
 import { NavLink } from 'react-router-dom'
 import film1 from '../../assets/Images/Project Image/Project film/Normal film/2022-05-18 22 21 15.png'
 import adminPic from '../../assets/Images/Project Image/Project film/admin/Admin big panel.png'
+import cvPic from '../../assets/Images/Project Image/ProjectCV/cv-big.png'
+import PharmarPic from '../../assets/Images/Project Image/Pharmar/pharmar2.png'
 function Portfolio() {
     const data = {
         projects: [
@@ -17,10 +19,21 @@ function Portfolio() {
                 technology: ["React", "Redux-Thunk", "React-Router-Dom", "Ant-Design", "Formik", "Boostrap", "axios", "Form data"],
                 to: '/Dashboard-Admin-Explanation'
             },
-            { id: 3, title: 'Udemy site', desc: 'Challenge of 24 hours to create a web app with react', image: 'https://www.techdiagonal.com/wp-content/uploads/2019/08/tech-diagonal-reactjs-create-react-app.jpg' },
-            { id: 4, title: 'Lucky Rolling Game', desc: 'An funny game made by react', image: 'https://www.techdiagonal.com/wp-content/uploads/2019/08/tech-diagonal-reactjs-create-react-app.jpg' },
-            { id: 4, title: 'Product Page', desc: 'An funny game made by react', image: 'https://www.techdiagonal.com/wp-content/uploads/2019/08/tech-diagonal-reactjs-create-react-app.jpg' },
-            { id: 4, title: 'Lucky Rolling Game', desc: 'An funny game made by react', image: 'https://www.techdiagonal.com/wp-content/uploads/2019/08/tech-diagonal-reactjs-create-react-app.jpg' },
+            {
+                id: 3, title: 'My Online CV', 
+                desc: 'An porfolio make with React',
+                 image: cvPic,
+                technology: ["React", "React-Router-Dom", "Ant-Design","Boostrap","Aos","Framer-motion"],
+                to: '/Dashboard-Admin-Explanation'
+            },
+            { id: 4, title: 'Dietary Supplement Page ',
+             desc: 'An landing page for Dietary Supplement', 
+             image: PharmarPic,
+             technology: ["HTML","CSS","Boostrap","Javascripts"],
+             to: '/Dashboard-Admin-Explanation'
+             },
+            { id: 5, title: 'Lucky Rolling Game', desc: 'An funny game made by react', image: 'https://www.techdiagonal.com/wp-content/uploads/2019/08/tech-diagonal-reactjs-create-react-app.jpg' },
+            
 
         ]
     }
