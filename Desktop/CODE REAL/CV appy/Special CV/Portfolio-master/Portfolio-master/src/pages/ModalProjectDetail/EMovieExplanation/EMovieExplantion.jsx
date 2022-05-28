@@ -226,7 +226,7 @@ function EMovieExplantion() {
 
                     </div>
                 </div>
-                <div className="row" data-aos="fade-up">
+                <div className="row" data-aos="fade-left">
                     <div className="col-6">
                         <img className='img-fluid' src={booking} alt="login-booking" />
                     </div>
@@ -315,7 +315,7 @@ h1{
     width: 80%;
     position: relative;
     gap: 160px;
-    /* padding: 60px 0 60px 0; */
+    padding: 20px 0 60px 0;
     margin-top: 60px;
     /* margin-bottom: 100px; */
     article{

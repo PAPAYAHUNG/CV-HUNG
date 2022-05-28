@@ -35,8 +35,9 @@
 .container {
   display: flex;
   flex-direction: column;
-  width: 80vw;
+  /* width: 80vw; */
   max-width: 1336px;
+  max-width: 90%;
   padding: 0 15px;
   align-items: center;
   margin: 0 auto;
@@ -127,6 +128,20 @@ footer {
   display: flex;
   margin-top: 80px;
   margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1800px) {
+  .portfo.container {
+    width: 90%;
+  }
+  .col-xl-3-custom{
+    position: relative;
+    float: left;
+    width: 25%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 @media screen and (max-width: 1400px) {

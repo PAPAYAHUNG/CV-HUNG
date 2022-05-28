@@ -89,6 +89,10 @@
  
 
 /* Responsive */
+@media screen and (min-width:1800px) {
+    .projects-list{
+        width: 1500px;}
+}
 @media screen and (max-width:1420px) {
     .col-md-6-custom {
         flex: 0 0 55%;

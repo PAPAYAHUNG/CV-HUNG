@@ -20,20 +20,19 @@ function Portfolio() {
                 to: '/Dashboard-Admin-Explanation'
             },
             {
-                id: 3, title: 'My Online CV', 
+                id: 3, title: 'My Online CV',
                 desc: 'An porfolio make with React',
-                 image: cvPic,
-                technology: ["React", "React-Router-Dom", "Ant-Design","Boostrap","Aos","Framer-motion"],
-                to: '/Dashboard-Admin-Explanation'
+                image: cvPic,
+                technology: ["React", "React-Router-Dom", "Ant-Design", "Boostrap", "Aos", "Framer-motion"],
+                to: '/My-CV-Explanation'
             },
-            { id: 4, title: 'Dietary Supplement Page ',
-             desc: 'An landing page for Dietary Supplement', 
-             image: PharmarPic,
-             technology: ["HTML","CSS","Boostrap","Javascripts"],
-             to: '/Dashboard-Admin-Explanation'
-             },
-            { id: 5, title: 'Lucky Rolling Game', desc: 'An funny game made by react', image: 'https://www.techdiagonal.com/wp-content/uploads/2019/08/tech-diagonal-reactjs-create-react-app.jpg' },
-            
+            {
+                id: 4, title: 'Dietary Supplement Page ',
+                desc: 'An landing page for Dietary Supplement',
+                image: PharmarPic,
+                technology: ["HTML", "CSS", "Boostrap", "Javascripts","Jquery"],
+                to: '/Dietary-Supplement-LandingPage-Explanation'
+            },
 
         ]
     }
@@ -47,7 +46,7 @@ function Portfolio() {
                     {data.projects.map(elem => {
                         console.log(elem.to)
                         return (
-                            <NavLink to={`${elem.to}`}  className="col-xl-4 col-md-6 col-12 "
+                            <NavLink to={`${elem.to}`} className="col-xl-4  col-md-6 col-12 "
                                 onClick={() => {
 
                                 }}
@@ -56,30 +55,31 @@ function Portfolio() {
                                     <div key={elem.id} className="project-card">
                                         <h2>{elem.title}</h2>
                                         <img src={elem.image} alt={"image" + elem.id}></img>
-                                        <div className='d-flex wrap-tech mt-2'>
-                                            {elem.technology?.map((item, index) => {
-                                                console.log(item)
-                                                return <div className='tag-tech' key={index}>
-                                                    {item}
-                                                </div>
-                                            })}
+                                        <div style={{minHeight:80}}>
+                                            <div className='d-flex wrap-tech mt-2 justify-content-center' >
+                                                {elem.technology?.map((item, index) => {
+                                                    console.log(item)
+                                                    return <div className='tag-tech ' key={index}>
+                                                        {item}
+                                                    </div>
+                                                })}
+                                            </div>
                                         </div>
-                                        <p style={{minHeight:60}}>{elem.desc}</p>
+                                        <p style={{ minHeight: 60 }}>{elem.desc}</p>
                                     </div>
                                 </div>
                             </NavLink>
                         )
                     })}
                 </div>
-                <div className='text-center w-100'>
+                {/* <div className='text-center w-100'>
                     <CTABtn
                         text="See more!"
                         // link="https://drive.google.com/file/d/1_cAMkys07aDdbtoDAwwCRVtqqoJzfbbe/view?usp=sharing"
                         padding="clamp(8px, 2px + 1vw, 10px)"
                         width="clamp(120px, 90px + 10vw ,220px)"
                     />
-
-                </div>
+                </div> */}
             </div>
         </div>
 
